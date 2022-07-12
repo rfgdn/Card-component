@@ -1,0 +1,126 @@
+body {
+    background-color: #0b0c1a;
+}
+
+.card-grande{
+    width: 800px;
+    background-color: white;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    color: white;
+    border-radius: 20px 15px 15px 20px;
+}
+
+.lado-info{
+    width: 400px;
+    height: 310px;
+    background-color: #1d1838;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    border-radius: 15px 0 0 15px;
+
+}
+
+.lado-foto{
+    width: 400px;
+    height: 350px;
+    background-color: #9e55cb;
+    border-radius: 0 15px 15px 0;
+
+}
+
+.foto{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    opacity: 50%;
+    border-radius: 0 15px 15px 0;
+        
+
+
+}
+
+.textao-grandao{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700px;
+    Font-size: 25px;
+
+}
+
+.texto-menor{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;
+    padding-top: 11%;
+    padding-bottom: 30%;
+
+
+}
+.insight{
+    color: #a95dd8;
+}
+
+
+.numero1{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.numero2{
+    margin-left: 23%;
+    margin-top: -12%;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+
+    
+}
+.numero3{
+    margin-left: -20%;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding-left: 40%;
+    position: relative;
+}
+
+.texto1{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.texto2{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 17%;
+
+    
+}
+.texto3{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 35%;
+}
