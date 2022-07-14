@@ -1,126 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #0b0c1a;
-}
-
-.card-grande{
-    width: 800px;
-    background-color: white;
-    height: 350px;
-    display: flex;
-    margin: auto;
-    margin-top: 150px;
-    color: white;
-    border-radius: 20px 15px 15px 20px;
-}
-
-.lado-info{
-    width: 400px;
-    height: 310px;
-    background-color: #1d1838;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-right: 5%;
-    border-radius: 15px 0 0 15px;
-
-}
-
-.lado-foto{
-    width: 400px;
-    height: 350px;
-    background-color: #9e55cb;
-    border-radius: 0 15px 15px 0;
-
-}
-
-.foto{
-    position: relative;
-    width: 400px;
-    height: 350px;
-    opacity: 50%;
-    border-radius: 0 15px 15px 0;
-        
-
-
-}
-
-.textao-grandao{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700px;
-    Font-size: 25px;
-
-}
-
-.texto-menor{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400px;
+    height: 100vh;
     font-size: 15px;
-    padding-top: 11%;
-    padding-bottom: 30%;
+    font-family: "Lexend Deca";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.conteudo-principal {
+    width: 1100px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: hsl(244, 38%, 16%);
+}
+
+
+.card-grande {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+}
+
+.lado-info {
+    width: 400px;
+
+}
+
+.foto {
+    position: relative;
+    width: 550px;
+    height: 450px;
+    background-image: url("images/image-header-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: brightness(75%);
+}
+
+.textao-grandao {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Inter;
+    color: hsl(0, 0%, 100%);
 
 
 }
-.insight{
+
+.info-texto-menor {
+    margin-top: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.561);
+
+}
+
+.destaque {
     color: #a95dd8;
 }
 
+.conteudo-estatistico {
+    display: flex;
+    margin-top: 60px;
+    gap: 60px;
 
-.numero1{
-    position: relative;
-    display: inline-block;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
+
+
 }
 
-.numero2{
-    margin-left: 23%;
-    margin-top: -12%;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-    position: relative;
-
-    
-}
-.numero3{
-    margin-left: -20%;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-    position: relative;
-    padding-left: 40%;
-    position: relative;
+.numerico {
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
 }
 
-.texto1{
-    position: relative;
-    display: inline-block;
+.sub-texto {
     font-size: 12px;
+    letter-spacing: 1.5px;
+    font-family: "Inter";
     text-transform: uppercase;
-    display: inline-block;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-.texto2{
-    position: relative;
-    display: inline-block;
-    font-size: 12px;
-    text-transform: uppercase;
-    display: inline-block;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
-    margin-left: 17%;
-
-    
-}
-.texto3{
-    position: relative;
-    display: inline-block;
-    font-size: 12px;
-    text-transform: uppercase;
-    display: inline-block;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Lexend Deca', sans-serif;
-    margin-left: 35%;
+    margin-top: 6px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
 }
